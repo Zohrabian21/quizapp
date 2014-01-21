@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="main.css" />
+		<title>quiz app</title>
+		<p id ="title"></p>
+	</head>
+	<body>
+	
+	<div class= "main">
+	<div id="sky">    
+    	<img class="cloud c1" src="http://localhost/clouds/cloud.png" /> 
+		<img class="cloud_reverse c2" src="http://localhost/clouds/cloud_reverse.png" /> 
+		<img class="cloud_small c3" src="http://localhost/clouds/cloud_small.png" /> 
+		<img class="cloud_small_reverse c4" src="http://localhost/clouds/cloud_small_reverse.png" /> 
+	</div>
+	    <div class ="title">
+        <p id ="title1">Cheese Please!</p>
+		</div>
+    <div id="question_progress"><p id="temp_progress">1/5</p>
+    </div>
+    <div class="question_section">
+        <p id='question'>Question</p>
+        <div class ="answer_buttons"><input type="radio" name='answers' value=0><span id="ans0"> Answer 0</span></div>
+        <div class ="answer_buttons"><input type="radio" name='answers' value=1><span id="ans1"> Answer 1</span></div>
+        <div class ="answer_buttons"><input type="radio" name='answers' value=2><span id="ans2"> Answer 2</span></div>
+        <div class ="answer_buttons"><input type="radio" name='answers' value=3><span id="ans3"> Answer 3</span></div>
+        <button class="button_section"><p id="button">Submit</p>
+        </button>
+            <button class="try_again_button"><p id="try_again">try again</p>
+        </button>
+        <div id="revealed_number">
+		</div>
+    </div>
+    
+    <div id="cheese">
+	<div id="cheese_container">
+		<div class="frame">
+			<img src="http://localhost/fill/cheese_wheel_blue_negative.png"/>
+		</div>
+		<div id="cheese_overlay">
+			<div id="cheese_block">&nbsp;</div>
+			<div id="cheese_edge">&nbsp;</div>
+		</div>
+        <img class="loadpic" src="http://localhost/fill/cheese_wheel_blue.png"/>
+	</div>
+	
+</div>
+
+</div>
+	            
+            
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<script src="application.js"></script>
+	</body>
+</html>	
